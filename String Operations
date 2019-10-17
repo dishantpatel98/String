@@ -23,4 +23,6 @@ The function also returns the copied array.
 
 7)strlen(s)--->It reurns the length of the string excluding null character.
 
-8)strchr()--->
+8)strchr(s,c)--->It will return the address of where the the character 'c' has occured.NUll if not present.
+
+9) strrchr(s,c)-->It will return the address where the character 'c' has occured last.NULL if not present.
